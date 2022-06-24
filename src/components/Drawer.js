@@ -187,7 +187,7 @@ const [movieList, setMovieList] = useState([]);
 
 
 const fetchData = async(search) => {
-    const response = await axios.get(`http://www.omdbapi.com/?s=${search}&apikey=816f62f1`);
+    const response = await axios.get(`https://www.omdbapi.com/?s=${search}&apikey=816f62f1`);
     setMovieList(response.data.Search);
 }
 

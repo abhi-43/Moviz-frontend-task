@@ -11,7 +11,7 @@ export default function AllPlaylist({imdbID}) {
     
     const [details, setDetails] = React.useState([])
     React.useEffect(() => {
-        let url = `http://www.omdbapi.com/?i=${imdbID}&apikey=ea499806`
+        let url = `https://www.omdbapi.com/?i=${imdbID}&apikey=816f62f1`
 
             fetch(url).then((req) => {
                 return req.json();

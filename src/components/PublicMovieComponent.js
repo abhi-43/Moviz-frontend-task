@@ -40,7 +40,7 @@ const MovieInfo = styled.span`
 const PublicMovieComponent = (props) => {
     const [details, setDetails] = React.useState([])
     React.useEffect(() => {
-        let url = `http://www.omdbapi.com/?i=${props.id}&apikey=ea499806`
+        let url = `https://www.omdbapi.com/?i=${props.id}&apikey=816f62f1`
 
             fetch(url).then((req) => {
                 return req.json();
