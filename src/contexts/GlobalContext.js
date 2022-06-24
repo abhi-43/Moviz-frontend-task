@@ -8,7 +8,7 @@ const GlobalContextProvider = (props) => {
     const [drawer, setDrawer] = useState("MOVIZ");
     const [loggedIn, setLoggedIn] = useState(false);
     const [loader, setLoader] = useState(true);
-    const [url, setUrl] = useState("http://localhost:8800/")
+    const [url, setUrl] = useState("https://moviz-back.herokuapp.com/")
     useEffect(() => {
         if (localStorage.getItem("access_token")) {
             setLoggedIn(true);
