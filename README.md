@@ -4,7 +4,7 @@
     <b>email ---- abhishek@gmail.com</b> <br />
     <b>password ---- 12345678</b> <br />
 
-<h2 style="text-align:center, display:flex, justify-content:center, margin:auto"><a href="https://drive.google.com/file/d/1Ov1m7F5eElURUpdcnAZdATG1FA7EJFO2/view?usp=sharing">DEMO VIDEO</a></h2>
+<h2 style="text-align:center, display:flex, justify-content:center, margin:auto"><a href="https://youtu.be/sxoipiDts34">DEMO VIDEO</a></h2>
 
 ## `Steps to launch`
 >  <b>For Frontend ---></b> git clone https://github.com/abhi-43/Moviz-frontend-task <br/>
@@ -17,6 +17,7 @@
 - Clone down this repository. You will need `node` and `npm` installed globally on your machine.
 - Installation:`npm install`
 - To Start Server: `npm start`
+- Add Backend URL in src/contexts/GlobalContext.js
 - To Visit app locally: `localhost:3000/`
 
 
